@@ -27,7 +27,8 @@
     },
     "files": [
         "nodes/*",
-        "ui/*",
+        "ui/index.js",
+        "ui/components/*",
         "resources/*"
     ],
     "scripts": {
