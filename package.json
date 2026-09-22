@@ -10,12 +10,16 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/flowfuse/node-red-dashboard-2-webrtc-viewer.git"
+        "url": "https://github.com/namjeongho/node-red-dashboard-2-webrtc-viewer"
     },
+    "bugs": {
+      "url": "https://github.com/namjeongho/node-red-dashboard-2-webrtc-viewer/issues"
+    },
+    "homepage": "https://github.com/namjeongho/node-red-dashboard-2-webrtc-viewer#readme",
     "license": "Apache-2.0",
     "author": {
         "name": "Nam Jeongho",
-        "url": "https://github.com/joepavitt"
+        "url": "https://github.com/namjeongho"
     },
     "exports": {
         "import": "./resources/ui-webrtc-viewer.esm.js",
