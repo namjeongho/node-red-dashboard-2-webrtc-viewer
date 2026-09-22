@@ -1,0 +1,30 @@
+<script type="text/html" data-help-name="ui-webrtc-viewer">
+    <p>Displays a WebRTC video stream in the Dashboard.</p>
+
+    <h3>Properties</h3>
+    <dl class="message-properties">
+        <dt>URL</dt>
+        <dd>
+            Default WebRTC stream URL.
+            The URL can be overridden by <code>msg.payload</code>.
+        </dd>
+
+        <dt>Reconnect Interval</dt>
+        <dd>
+            Time in milliseconds before attempting to reconnect.
+        </dd>
+    </dl>
+
+    <h3>Input</h3>
+    <dl class="message-properties">
+        <dt>payload</dt>
+        <dd>
+            WebRTC stream URL. If provided, this URL takes priority over the configured URL.
+        </dd>
+
+        <dt>topic</dt>
+        <dd>
+            Optional stream name.
+        </dd>
+    </dl>
+</script>
